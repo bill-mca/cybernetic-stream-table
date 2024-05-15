@@ -37,14 +37,24 @@ Total of 58.5 hours estimated
 
 ## Past (what was done when)
 
+### 6th of May
+ - Drilled drain holes in the bed of the stainless tray (Thanks for the help Dave!)
+
+### 11th of May
+ - Disassembled axolotl
+ - Organised build box
+ - Made plastic washers for the drains using the hole saw attachment for the drill
+ - Cut the cross-brace out of the stainless tray using the angle grinder
+ - Tidied up all sharp burs with the angle grinder
+
 ### 14th of May 
 - Flashed an OS to an SD card for the RPi
 
 ### 15th of May
 - Plugged in RPi for first time
 - Plugged in RPi camera
-- Tested RPi camera from the command line
-- Reflashed the RPi OS (because I forgot what password I'd chosen)
+- Tested RPi camera from the command line (Thanks for the tips Ant!)
+- Reflashed the RPi OS (because I forgot what password I chose yesterday)
 
 - Used liquid nails to patch holes in the bottom of the stainless tray
 - Used liquid nails to attach platic washers to the drains of the stainless tray
