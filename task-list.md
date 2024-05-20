@@ -23,19 +23,21 @@ I started this tasklist on the 16th of May to keep track of my progress. I'll tr
  - A wooden frame to sit on top of the stainless steel table
  - Test a way of setting up a drain and reservoir
  - Test and set the slope of the table (will use car jacks)
+ - A pole to elevate the RPi above the table
+ - A set of images to train the colour recognition algorithm
 
 ## To Build
  - *(time estimate) Description*
  - (2) Finalise the wooden frame to sit on top of the stainless steel table 
  - (5) Test and choose a medium
- - (2) A hose attachment to bring water from the resevoir at the bottom to the top of the stream
+ - (2) A hose attachment to bring water from the reservoir at the bottom to the top of the stream
  - (8) Code a microcontroller to receive a bluetooth signal and control the speed of a motor
  - (2.5) Test the speed of the motor necessary to deliver a range of flows with minimal lag
- - (6) Get the RPi up high to get good photos of the table
+ - (3) Finalise a way of elevating the RPi for good photos 
  - (6) Code Bluetooth transmission from the RPi to the microcontroller
  - (14) Code image recognition in the RPi
 
-Total of 45.5 hours estimated
+Total of 42.5 hours estimated
 
 # Task List
 
@@ -107,19 +109,18 @@ Ben changed my thinking about the design of the table. He pointed out that I cou
 
 I feel that the physical component has reached MVP level. There are a couple of different directions I could take to finalise the design of the physical component but I think, at most, it'd take a day's work to polish it off. The microcotroller that I used to build my bluetooth defence Axolotl could already animate the actuation component of the table, so I won't start work on the motor controller yet.  My main concern is that the strength of flow that I have is insuffiecient to rework the sand into a diversity of geomorphic features but I still need to do more testing before making a call on that. As it is, the table is good enough to start collecting photos for the computer vision component, so I will start developing the sensing (computer vision) part of the project now. 
 
-## Future (what I'm aiming to do when)
-
 ### 20th of May
-- Aim to do 4 hrs
-- Maybe show it to some Peter Cullen trust people? They would be the intended user base for the CST.
-- Revise the project plan and make sure that the time estimated still matches with the time available.
-- Test sticking wood to stainless steel with silastic.
-- Figure out what height the photos need to be taken from with the RPi.
-- Think about options for mounting the Rpi.
+- Did an hour of planning
+- Did two hours in the lab
+- Figured out what height the photos need to be taken from with the RPi - about 700mm above the bed of the table
+- Took a set of test photos to do computer vision on
+- Bodgeyed up a pole mount for the RPi that allows it to see the whole table.
+
+## Future (what I'm aiming to do when)
 
 ### 21st of May
 - Aim to do 8 hrs
-- Get some test photos to do computer vision on.
+- Test sticking wood to stainless steel with silastic.
 - Write some computer vision code.
 
 ### 22nd of May

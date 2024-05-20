@@ -8,5 +8,6 @@ libcamera-jpeg -n -o test2.jpg
 # To copy all jpg images from the home drive of one linux machine to the home drive of another:
 scp cyberneticbilby@rpi.local:~/*.jpg ~/
 
-# Take a high quality photo every 30 seconds for 2 minutes:
+# Take a high quality photo every 30 seconds for 2 minutes
+# Good for building a training dataset for machine learning
 libcamera-still -n -t 120000 --timelapse 30000 --datetime --hdr
