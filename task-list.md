@@ -25,6 +25,7 @@ I started this tasklist on the 16th of May to keep track of my progress. I'll tr
  - Test and set the slope of the table (will use car jacks)
  - A pole to elevate the RPi above the table
  - A set of images to train the colour recognition algorithm
+ - A script that takes an image and returns the number of yellow objects in frame
 
 ## To Build
  - *(time estimate) Description*
@@ -33,11 +34,14 @@ I started this tasklist on the 16th of May to keep track of my progress. I'll tr
  - (2) A hose attachment to bring water from the reservoir at the bottom to the top of the stream
  - (8) Code a microcontroller to receive a bluetooth signal and control the speed of a motor
  - (2.5) Test the speed of the motor necessary to deliver a range of flows with minimal lag
+ - (2) Wire up the motor controller
  - (3) Finalise a way of elevating the RPi for good photos 
  - (6) Code Bluetooth transmission from the RPi to the microcontroller
- - (14) Code image recognition in the RPi
+ - (2) Refine image recognition in the RPi
+ - (2) Code live image recognition
+ - (4) Write a script to determine the speed of the motor based on image recognition
 
-Total of 42.5 hours estimated
+Total of 38.5 hours estimated
 
 # Task List
 
@@ -116,12 +120,14 @@ I feel that the physical component has reached MVP level. There are a couple of 
 - Took a set of test photos to do computer vision on
 - Bodgeyed up a pole mount for the RPi that allows it to see the whole table.
 
-## Future (what I'm aiming to do when)
 
 ### 21st of May
-- Aim to do 8 hrs
-- Test sticking wood to stainless steel with silastic.
-- Write some computer vision code.
+- Did 3.5 hrs
+- Wrote a python scipt that takes an image and returns the number of yellow objects in frame
+
+- Test sticking wood to stainless steel with silastic
+
+## Future (what I'm aiming to do when)
 
 ### 22nd of May
 - Aim to do 9 hrs
