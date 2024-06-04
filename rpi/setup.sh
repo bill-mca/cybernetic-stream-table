@@ -1,4 +1,7 @@
-python3 -m venv ./venv
+
+
+python3 -m venv --system-site-packages ./venv
+
 ./venv/bin/pip3 install numpy
 
 # Installs openCV version 3.4
