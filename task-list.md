@@ -125,13 +125,36 @@ I feel that the physical component has reached MVP level. There are a couple of 
 - Did 3.5 hrs
 - Wrote a python scipt that takes an image and returns the number of yellow objects in frame
 
-- Test sticking wood to stainless steel with silastic
+I'll need to change my focus to other assignments starting on the 23rd. I'd like to reach an integrated MVP by then. The MVP would lack precise control of the motor or sophisticated computer vision. It's physical build will be slightly leaky and fragile but it would essentially have all the components and potentially convey the narrative that I want to get across. That way I'll be finished 2 weeks before demo day and I'll just need to polish it up from then on. 
+
+### 4th of June
+- Tested PWM from the RPi
+- Set up control of the motor from the RPi
+- Used sillicone to stick the wood to the steel table
+- used the drill to screw the frame together (failed - need longer screws)
+- nailed angle pieces onto the frame
+- wrote code to instantaneously link the RPi's camera image to the OpenCV analysis.
+- Got the live openCV code to run over graphical SSH so that my laptop can show what the RPi camera is seeing
+
+- write a couple of scripts of code to control the speed of the motor
+- Wire up the RPI
+
+At 3pm I have the motor cotroller running so it should now be a matter of integrating the various parts. As a stretch goal I'll try to get a live video feed of the image OpenCV image classification.   
 
 ## Future (what I'm aiming to do when)
 
-### 22nd of May
-- Aim to do 9 hrs
-- Prototype communication between the components
-- Integrated MVP
+### 5th of June
+- Test it with a full load of sand
+- flood test the new silicone waterproofing
+- Integrate the PWM code with the OpenCV code 
+- Rebuild the filter
+- Attach the boards to the table and run the wires from the camera down to the pump.
+- Build an integrated whole
+- Finalise documentation for the project
+- Setup in the kitchen
+- Think about How I'll tell the story
+- Print a poster to go with the thing
 
-I'll need to change my focus to other assignments starting on the 23rd. I'd like to reach an integrated MVP by then. The MVP would lack precise control of the motor or sophisticated computer vision. It's physical build will be slightly leaky and fragile but it would essentially have all the components and potentially convey the narrative that I want to get across. That way I'll be finished 2 weeks before demo day and I'll just need to polish it up from then on. 
+### 6th of June
+- A little bit of final set up
+- Present at demo day
