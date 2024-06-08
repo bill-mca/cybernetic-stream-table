@@ -168,21 +168,21 @@ At 3pm I have the motor cotroller running so it should now be a matter of integr
 
 By the end of the day I had written OpenCV code to make a live video stream showing object recognition from the RPi's camera. I'd also figured out how to run the code over SSH so that the RPi could be mounted above the stream table but a nearby laptop could be used to view the output from the Pi's camera.  
 
-## Future (what I'm aiming to do when)
-
 ### 5th of June
-- Test it with a full load of sand
-- flood test the new silicone water
-- proofing
-- Integrate the PWM code with the OpenCV code 
 - Rebuild the filter
-- Attach the boards to the table and run the wires from the camera down to the pump.
-- Build an integrated whole
-- Finalise documentation for the project
+- flood tested the table with its new silicone water-proofing
+- Tested it with a full load of sand
+- Integrated the PWM code with the OpenCV code by writing some code 
+- Attached the boards to the table
+- Ran the wires from the camera down to the pump.
 - Setup in the kitchen
-- Think about How I'll tell the story
-- Print a poster to go with the thing
 
 ### 6th of June
 - A little bit of final set up
-- Present at demo day
+- Presented at demo day
+- packed up.
+
+
+## Future (what I'm aiming to do when)
+
+The project is complete for the time being.
