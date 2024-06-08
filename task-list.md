@@ -26,26 +26,51 @@ I started this tasklist on the 16th of May to keep track of my progress. I'll tr
  - A pole to elevate the RPi above the table
  - A set of images to train the colour recognition algorithm
  - A script that takes an image and returns the number of yellow objects in frame
+ - Live image recognition
+ - A routine to view the image analysis code over SSH 
 
 ## To Build
  - *(time estimate) Description*
- - (2) Finalise the wooden frame to sit on top of the stainless steel table 
  - (5) Test and choose a medium
  - (2) A hose attachment to bring water from the reservoir at the bottom to the top of the stream
  - (8) Code a microcontroller to receive a bluetooth signal and control the speed of a motor
- - (2.5) Test the speed of the motor necessary to deliver a range of flows with minimal lag
- - (2) Wire up the motor controller
- - (3) Finalise a way of elevating the RPi for good photos 
  - (6) Code Bluetooth transmission from the RPi to the microcontroller
- - (2) Refine image recognition in the RPi
- - (2) Code live image recognition
- - (4) Write a script to determine the speed of the motor based on image recognition
 
-Total of 38.5 hours estimated
+Total of 21 hours estimated
 
 # Task List
 
 ## Past (what was done when)
+
+### 27th of February
+-Wrote down my initial idea for the stream table.
+
+### 10th of March 
+- Found the steel tray on tip day in Belgrave.
+- Also found a couple of roles of garden hose.
+- And a bag of sand.
+
+### 8th of April
+- Received the pump from core electronics.
+
+### 16th of April 
+- Built a drain for the stainless tray from a set of pipe fittings. The tray was not yet sealed to the tray. 
+
+# 18th of April
+- Tested how the pump works using a laboratory power supply.
+- Figured out how to connect hoses to the pump.
+
+# 22nd of April
+- Talked with Muhammed Asfour about the best way to control a DC motor (Thanks Mo!).
+- Used the laboratory power supply to test how a relay switch functioned.
+
+# 23rd of April
+- Wired the pump to a Bluefruit via the relay switch. 
+- Wrote simple code so that the Bluefruit would periodically switch the pump on and off (see test_relay_switch.py)
+
+# 24th of April
+- Combined the sensor and actuators together so that the pump ran when the axolotl detected the stork in close proximity.
+- Tested using a battery to power my pump. 
 
 ### 6th of May
  - Drilled drain holes in the bed of the stainless tray (Thanks for the help Dave!)
@@ -136,16 +161,19 @@ I'll need to change my focus to other assignments starting on the 23rd. I'd like
 - wrote code to instantaneously link the RPi's camera image to the OpenCV analysis.
 - Got the live openCV code to run over graphical SSH so that my laptop can show what the RPi camera is seeing
 
-- write a couple of scripts of code to control the speed of the motor
+- Write a couple of scripts of code to control the speed of the motor
 - Wire up the RPI
 
-At 3pm I have the motor cotroller running so it should now be a matter of integrating the various parts. As a stretch goal I'll try to get a live video feed of the image OpenCV image classification.   
+At 3pm I have the motor cotroller running so it should now be a matter of integrating the various parts. As a stretch goal I'll try to get a live video feed of the image OpenCV image classification.
+
+By the end of the day I had written OpenCV code to make a live video stream showing object recognition from the RPi's camera. I'd also figured out how to run the code over SSH so that the RPi could be mounted above the stream table but a nearby laptop could be used to view the output from the Pi's camera.  
 
 ## Future (what I'm aiming to do when)
 
 ### 5th of June
 - Test it with a full load of sand
-- flood test the new silicone waterproofing
+- flood test the new silicone water
+- proofing
 - Integrate the PWM code with the OpenCV code 
 - Rebuild the filter
 - Attach the boards to the table and run the wires from the camera down to the pump.
